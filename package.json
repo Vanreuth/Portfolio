@@ -11,14 +11,14 @@
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",
-    "@react-three/drei": "^10.0.7",
+    "@react-three/drei": "^10.1.1",
     "@react-three/fiber": "^9.1.2",
     "@react-three/postprocessing": "^3.0.4",
-    "@tailwindcss/vite": "^4.1.7",
+    "framer-motion": "^12.15.0",
     "gsap": "^3.13.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "tailwindcss": "^4.1.7",
+    "react-router-dom": "^7.6.1",
     "three": "^0.176.0"
   },
   "devDependencies": {
@@ -26,10 +26,18 @@
     "@types/react": "^19.1.2",
     "@types/react-dom": "^19.1.2",
     "@vitejs/plugin-react": "^4.4.1",
+    "autoprefixer": "^10.4.21",
     "eslint": "^9.25.0",
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.19",
     "globals": "^16.0.0",
+    "postcss": "^8.5.4",
+    "tailwindcss": "^3.4.17",
     "vite": "^6.3.5"
-  }
+  },
+  "description": "| Package                       | Purpose                                                            | | ----------------------------- | ------------------------------------------------------------------ | | `gsap`                        | GreenSock Animation Platform – powerful animation library.         | | `@gsap/react`                 | React integration for GSAP (helps with useGSAP hooks, etc.).       | | `three`                       | Core Three.js library for 3D rendering.                            | | `@react-three/fiber`          | React renderer for Three.js (lets you use Three.js in JSX).        | | `@react-three/drei`           | Useful helpers/components (like OrbitControls, Environment, etc.). | | `@react-three/postprocessing` | Postprocessing effects like bloom, SSAO, depth of field, etc.      |",
+  "main": "eslint.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
